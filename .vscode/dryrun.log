@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/toto/STORAGE/TRENTO/Risorse/3.anno/EMBEDDED SOFTWARE FOR THE IoT/project/FallDetector-MSP432/FallDetector-MSP432'
+make: Leaving directory '/media/toto/STORAGE/TRENTO/Risorse/3.anno/EMBEDDED SOFTWARE FOR THE IoT/project/FallDetector-MSP432/FallDetector-MSP432'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

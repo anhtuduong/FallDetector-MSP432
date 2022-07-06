@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 26 22:43:44 2022
+# Make data base, printed on Wed Jul  6 23:25:09 2022
 
 # Variables
 
@@ -47,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:37673
+JOURNAL_STREAM = 8:38503
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -71,7 +73,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 ROS_PACKAGE_PATH = /opt/ros/noetic/share
 # environment
-MANAGERPID = 977
+MANAGERPID = 974
 # environment
 ROS_PYTHON_VERSION = 3
 # environment
@@ -87,7 +89,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/toto-Latitude-E5570:@/tmp/.ICE-unix/1279,unix/toto-Latitude-E5570:/tmp/.ICE-unix/1279
+SESSION_MANAGER = local/toto-Latitude-E5570:@/tmp/.ICE-unix/1263,unix/toto-Latitude-E5570:/tmp/.ICE-unix/1263
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -99,7 +101,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = b2f6d9ab139d42739e3c33ed2b8b881d
+INVOCATION_ID = 4733547795e344b78dd1a4632c3be698
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -111,7 +113,7 @@ ROS_DISTRO = noetic
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 51241
+GIO_LAUNCHED_DESKTOP_FILE_PID = 214130
 # automatic
 %F = $(notdir $%)
 # environment
@@ -125,7 +127,7 @@ PWD = /media/toto/STORAGE/TRENTO/Risorse/3.anno/EMBEDDED SOFTWARE FOR THE IoT/pr
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1241
+SSH_AGENT_PID = 1222
 # environment
 PKG_CONFIG_PATH = /opt/ros/noetic/lib/pkgconfig
 # environment
@@ -165,7 +167,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8242a0ec-8b23-4451-b9f2-3dd0bca24d02.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e95e5b32-2acd-4d1a-bf81-8b818a85993c.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -239,7 +241,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 51241
+VSCODE_PID = 214130
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -251,9 +253,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2054, inode 8777): 8 files, no impossibilities.
+# . (device 2054, inode 10660): 16 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,8 +281,6 @@ Makefile:
 makefile:
 #  Implicit rule search has been done.
  
-make: *** No rule to make target 'all'.  Stop.
-
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
@@ -306,12 +306,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 135 B / avg = 8 B
-# current buf: size = 8162 B / used = 135 B / count = 16 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 237 B / avg = 9 B
+# current buf: size = 8162 B / used = 237 B / count = 24 / avg = 9 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Sun Jun 26 22:43:44 2022
+# Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
+# Finished Make data base on Wed Jul  6 23:25:09 2022
 
  
